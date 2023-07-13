@@ -6,3 +6,6 @@ const newH1 = document.createElement('h1');
 newH1.textContent = 'SEI Rocks!'
 
 mainEl.appendChild(newH1)
+
+//task 3
+mainEl.classList.add("flex-ctr")
