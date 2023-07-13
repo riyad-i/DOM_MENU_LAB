@@ -9,3 +9,6 @@ mainEl.appendChild(newH1)
 
 //task 3
 mainEl.classList.add("flex-ctr")
+
+//task 2.0
+const topMenuEl = document.getElementById('top-menu')
