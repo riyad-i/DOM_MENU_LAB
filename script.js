@@ -39,3 +39,12 @@ for (entry of menuLinks){
     // console.log(newLink);
 }
 // console.log(topMenuEl);
+
+
+
+//4.0
+const subMenuEl = document.getElementById('sub-menu');
+//4.1
+subMenuEl.style.height = '100%'
+//4.2
+subMenuEl.style.backgroundColor = 'var(--sub-menu-bg)'
