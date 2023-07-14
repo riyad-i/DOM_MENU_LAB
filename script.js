@@ -33,9 +33,9 @@ topMenuEl.classList.add('flex-around')
 for (entry of menuLinks){
     newLink = document.createElement('a')
     topMenuEl.appendChild(newLink)
-    console.log(newLink);
-    newLink.href = entry['href']   //either or works
-    // newLink.setAttribute('href', entry['href'])   
-    
+    newLink.href = entry['href']   //either or works line after
+    // newLink.setAttribute('href', entry['href'])   //entry.href also an option
+    newLink.innerText =entry.text;
+    // console.log(newLink);
 }
-console.log(topMenuEl);
+// console.log(topMenuEl);
